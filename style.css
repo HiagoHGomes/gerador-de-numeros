@@ -76,7 +76,7 @@ p div {
 a {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size:25px;
     border: none;
     background: linear-gradient(to bottom,#ffb32d 0%,#ff9a00 100%);
     width: 30%;
@@ -85,4 +85,38 @@ a {
     cursor: pointer;
     border-radius: 15px;
     display: none;
+    text-align: center;
 }
+
+
+/* Responsividade: */
+
+@media (max-width:910px) {
+   body {
+    display: flex;
+    flex-direction: column;
+    background-color: #009e4c;
+   }
+
+   .imgEsq {
+    width: 100vw;
+    height: 25vh;
+   }
+
+   .form{
+    width: 100vw;
+    height: 75vh;
+   }
+
+   #qtdN {
+    padding: 15px;
+   }
+
+   button {
+    height: 50px;
+   }
+}
+
+
+
+

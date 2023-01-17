@@ -10,8 +10,8 @@ function gerar(){
         for (let i = 0; i < qtdN; i++) {
             let randomNum = Math.floor(Math.random() * 60);
             document.getElementById("randomN").innerHTML += "<div>"+randomNum+"</div>" + " ";
-            // document.querySelector("a").innerText = "Aposte agora!";
-            // document.querySelector("a").style.display = "block";
+            document.querySelector("a").innerText = "Aposte agora!";
+            document.querySelector("a").style.display = "block";
             };
     } 
 };
